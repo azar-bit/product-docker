@@ -19,7 +19,7 @@ spec:
             - containerPort: 8088
           env:
             - name: SPRING_DATASOURCE_URL
-              value: jdbc:mysql://mysql/product_demo_kube-2?useSSL=false&allowPublicKeyRetrieval=true
+              value: jdbc:mysql://mysql/product_demo_kube-2?createDatabaseIfNotExist=true&serverTimezone=UTC&useSSL=true
             - name: DB_HOST
               value: mysql
             - name: DB_NAME
