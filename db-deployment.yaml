@@ -35,13 +35,13 @@ spec:
                 tier: database
         spec:
             containers:
-                - image: mysql:8.0.27
+                - image: mysql:latest
                   name: mysql
                   env:
                       - name: MYSQL_ROOT_PASSWORD
                         value: root
                       - name: MYSQL_DATABASE
-                        value: product_demo_kube
+                        value: product_demo_kube-2
                   ports:
                       - containerPort: 3306
                         name: mysql
