@@ -40,5 +40,5 @@ spec:
     - protocol: "TCP"
       port: 8088
       targetPort: 8088
-  type: LoadBalancer  # Change this for cloud deployment
+  type: NodePort  # Change this for cloud deployment
 

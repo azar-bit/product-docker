@@ -70,4 +70,4 @@ spec:
     app: mysql
     tier: database
 #  type: ClusterIP  # Use LoadBalancer if needed
-  clusterIP: None
+  clusterIP: NodePort  # Use NodePort if needed
