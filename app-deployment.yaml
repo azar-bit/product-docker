@@ -1,0 +1,44 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: spring-crud-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: springboot-k8s-mysql
+  template:
+    metadata:
+      labels:
+        app: springboot-k8s-mysql
+    spec:
+      containers:
+        - name: springboot-crud-k8s
+          image: azaruddinmohd12/product_kube:1.0.0
+          ports:
+            - containerPort: 8088
+          env:
+            - name: SPRING_DATASOURCE_URL
+              value: jdbc:mysql://mysql/product_demo_kube?useSSL=false&allowPublicKeyRetrieval=true
+            - name: DB_HOST
+              value: mysql
+            - name: DB_NAME
+              value: product_demo_kube
+            - name: DB_USER
+              value: root
+            - name: DB_PASSWORD
+              value: root
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: springboot-crud-svc
+spec:
+  selector:
+    app: springboot-k8s-mysql
+  ports:
+    - protocol: "TCP"
+      port: 8088
+      targetPort: 8088
+  type: LoadBalancer  # Change this for cloud deployment
+

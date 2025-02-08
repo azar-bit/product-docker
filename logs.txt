@@ -1,0 +1,543 @@
+
+==> Audit <==
+|----------------|---------------------------|----------|---------------|---------|---------------------|---------------------|
+|    Command     |           Args            | Profile  |     User      | Version |     Start Time      |      End Time       |
+|----------------|---------------------------|----------|---------------|---------|---------------------|---------------------|
+| start          |                           | minikube | PROD\MAzarudd | v1.33.1 | 21 Jan 25 22:33 IST |                     |
+| start          |                           | minikube | PROD\MAzarudd | v1.33.1 | 23 Jan 25 08:13 IST |                     |
+| start          |                           | minikube | PROD\MAzarudd | v1.33.1 | 23 Jan 25 08:14 IST |                     |
+| start          |                           | minikube | PROD\MAzarudd | v1.33.1 | 23 Jan 25 08:21 IST |                     |
+| delete         |                           | minikube | PROD\MAzarudd | v1.33.1 | 23 Jan 25 08:28 IST | 23 Jan 25 08:28 IST |
+| start          |                           | minikube | PROD\MAzarudd | v1.33.1 | 23 Jan 25 08:28 IST | 23 Jan 25 08:28 IST |
+| dashboard      |                           | minikube | PROD\MAzarudd | v1.33.1 | 23 Jan 25 08:57 IST | 23 Jan 25 18:09 IST |
+| stop           |                           | minikube | PROD\MAzarudd | v1.33.1 | 23 Jan 25 12:03 IST | 23 Jan 25 12:03 IST |
+| start          |                           | minikube | PROD\MAzarudd | v1.33.1 | 25 Jan 25 13:04 IST | 25 Jan 25 13:05 IST |
+| dashboard      |                           | minikube | PROD\MAzarudd | v1.33.1 | 25 Jan 25 13:06 IST |                     |
+| start          |                           | minikube | PROD\MAzarudd | v1.33.1 | 25 Jan 25 14:16 IST | 25 Jan 25 14:17 IST |
+| addons         | enable metrics-server     | minikube | PROD\MAzarudd | v1.33.1 | 25 Jan 25 14:17 IST | 25 Jan 25 14:17 IST |
+| dashboard      |                           | minikube | PROD\MAzarudd | v1.33.1 | 25 Jan 25 15:06 IST |                     |
+| start          |                           | minikube | PROD\MAzarudd | v1.33.1 | 25 Jan 25 15:07 IST | 25 Jan 25 15:11 IST |
+| addons         | enable metrics-server     | minikube | PROD\MAzarudd | v1.33.1 | 25 Jan 25 15:11 IST | 25 Jan 25 15:11 IST |
+| dashboard      |                           | minikube | PROD\MAzarudd | v1.33.1 | 25 Jan 25 15:12 IST |                     |
+| start          |                           | minikube | PROD\MAzarudd | v1.33.1 | 25 Jan 25 15:21 IST | 25 Jan 25 15:22 IST |
+| start          |                           | minikube | PROD\MAzarudd | v1.33.1 | 25 Jan 25 22:58 IST | 25 Jan 25 22:59 IST |
+| addons         | enable metrics-server     | minikube | PROD\MAzarudd | v1.33.1 | 25 Jan 25 22:59 IST | 25 Jan 25 23:00 IST |
+| dashboard      |                           | minikube | PROD\MAzarudd | v1.33.1 | 25 Jan 25 23:18 IST |                     |
+| stop           |                           | minikube | PROD\MAzarudd | v1.33.1 | 26 Jan 25 00:02 IST | 26 Jan 25 00:02 IST |
+| start          |                           | minikube | PROD\MAzarudd | v1.33.1 | 29 Jan 25 08:51 IST | 29 Jan 25 08:52 IST |
+| addons         | enable metrics-server     | minikube | PROD\MAzarudd | v1.33.1 | 29 Jan 25 08:52 IST | 29 Jan 25 08:52 IST |
+| dashboard      |                           | minikube | PROD\MAzarudd | v1.33.1 | 29 Jan 25 10:21 IST |                     |
+| ip             |                           | minikube | PROD\MAzarudd | v1.33.1 | 29 Jan 25 10:25 IST | 29 Jan 25 10:25 IST |
+| service        | springboot-crud-svc       | minikube | PROD\MAzarudd | v1.33.1 | 29 Jan 25 10:28 IST |                     |
+| dashboard      |                           | minikube | PROD\MAzarudd | v1.33.1 | 30 Jan 25 06:31 IST |                     |
+| start          |                           | minikube | PROD\MAzarudd | v1.33.1 | 30 Jan 25 06:31 IST | 30 Jan 25 06:32 IST |
+| addons         | enable metrics-server     | minikube | PROD\MAzarudd | v1.33.1 | 30 Jan 25 06:32 IST | 30 Jan 25 06:32 IST |
+| dashboard      |                           | minikube | PROD\MAzarudd | v1.33.1 | 30 Jan 25 06:32 IST |                     |
+| ip             |                           | minikube | PROD\MAzarudd | v1.33.1 | 30 Jan 25 06:43 IST | 30 Jan 25 06:43 IST |
+| tunnel         |                           | minikube | PROD\MAzarudd | v1.33.1 | 30 Jan 25 06:45 IST |                     |
+| ip             |                           | minikube | PROD\MAzarudd | v1.33.1 | 30 Jan 25 07:01 IST | 30 Jan 25 07:01 IST |
+| tunnel         |                           | minikube | PROD\MAzarudd | v1.33.1 | 30 Jan 25 07:05 IST |                     |
+| update-context |                           | minikube | PROD\MAzarudd | v1.33.1 | 30 Jan 25 07:11 IST | 30 Jan 25 07:11 IST |
+| start          |                           | minikube | PROD\MAzarudd | v1.33.1 | 30 Jan 25 07:13 IST | 30 Jan 25 07:13 IST |
+| dashboard      |                           | minikube | PROD\MAzarudd | v1.33.1 | 30 Jan 25 07:14 IST |                     |
+| ip             |                           | minikube | PROD\MAzarudd | v1.33.1 | 30 Jan 25 07:16 IST | 30 Jan 25 07:16 IST |
+| tunnel         |                           | minikube | PROD\MAzarudd | v1.33.1 | 30 Jan 25 07:20 IST |                     |
+| service        | springboot-crud-svc --url | minikube | PROD\MAzarudd | v1.33.1 | 30 Jan 25 07:25 IST |                     |
+| ip             |                           | minikube | PROD\MAzarudd | v1.33.1 | 30 Jan 25 07:49 IST | 30 Jan 25 07:49 IST |
+| service        | springboot-crud-svc       | minikube | PROD\MAzarudd | v1.33.1 | 30 Jan 25 07:50 IST |                     |
+| service        | springboot-crud-svc       | minikube | PROD\MAzarudd | v1.33.1 | 30 Jan 25 07:56 IST |                     |
+| stop           |                           | minikube | PROD\MAzarudd | v1.33.1 | 30 Jan 25 08:02 IST | 30 Jan 25 08:03 IST |
+| start          | --driver=virtualbox       | minikube | PROD\MAzarudd | v1.33.1 | 30 Jan 25 08:03 IST |                     |
+| delete         |                           | minikube | PROD\MAzarudd | v1.33.1 | 30 Jan 25 08:03 IST | 30 Jan 25 08:03 IST |
+| start          | --driver=virtualbox       | minikube | PROD\MAzarudd | v1.33.1 | 30 Jan 25 08:04 IST |                     |
+| start          | --driver=virtualbox       | minikube | PROD\MAzarudd | v1.33.1 | 30 Jan 25 08:08 IST |                     |
+| config         | set driver virtualbox     | minikube | PROD\MAzarudd | v1.33.1 | 30 Jan 25 08:08 IST | 30 Jan 25 08:08 IST |
+| start          | --driver=virtualbox       | minikube | PROD\MAzarudd | v1.33.1 | 30 Jan 25 08:23 IST |                     |
+| start          | --driver=virtualbox       | minikube | PROD\MAzarudd | v1.33.1 | 30 Jan 25 08:31 IST |                     |
+| start          | --driver=virtualbox       | minikube | PROD\MAzarudd | v1.33.1 | 30 Jan 25 08:32 IST |                     |
+| start          | --driver=virtualbox       | minikube | PROD\MAzarudd | v1.33.1 | 30 Jan 25 08:35 IST |                     |
+| start          | --driver=virtualbox       | minikube | PROD\MAzarudd | v1.33.1 | 30 Jan 25 08:41 IST | 30 Jan 25 08:44 IST |
+| dashboard      |                           | minikube | PROD\MAzarudd | v1.33.1 | 30 Jan 25 08:48 IST |                     |
+| dashboard      |                           | minikube | PROD\MAzarudd | v1.33.1 | 30 Jan 25 08:50 IST |                     |
+| ip             |                           | minikube | PROD\MAzarudd | v1.33.1 | 30 Jan 25 08:51 IST | 30 Jan 25 08:51 IST |
+| service        | springboot-crud-svc --url | minikube | PROD\MAzarudd | v1.33.1 | 30 Jan 25 08:58 IST |                     |
+| service        | springboot-crud-svc --url | minikube | PROD\MAzarudd | v1.33.1 | 30 Jan 25 08:58 IST |                     |
+| start          |                           | minikube | PROD\MAzarudd | v1.33.1 | 30 Jan 25 08:59 IST |                     |
+|----------------|---------------------------|----------|---------------|---------|---------------------|---------------------|
+
+
+==> Last Start <==
+Log file created at: 2025/01/30 08:59:15
+Running on machine: QH4SXHR3
+Binary: Built with gc go1.22.1 for windows/amd64
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0130 08:59:15.829915   25936 out.go:291] Setting OutFile to fd 88 ...
+I0130 08:59:15.830421   25936 out.go:338] TERM=,COLORTERM=, which probably does not support color
+I0130 08:59:15.830421   25936 out.go:304] Setting ErrFile to fd 92...
+I0130 08:59:15.830421   25936 out.go:338] TERM=,COLORTERM=, which probably does not support color
+I0130 08:59:15.845256   25936 out.go:298] Setting JSON to false
+I0130 08:59:15.850122   25936 start.go:129] hostinfo: {"hostname":"QH4SXHR3","uptime":1238,"bootTime":1738206517,"procs":369,"os":"windows","platform":"Microsoft Windows 10 Enterprise","platformFamily":"Standalone Workstation","platformVersion":"10.0.19045.5371 Build 19045.5371","kernelVersion":"10.0.19045.5371 Build 19045.5371","kernelArch":"x86_64","virtualizationSystem":"","virtualizationRole":"","hostId":"175b69cc-dde8-4780-a452-82f996abaa27"}
+W0130 08:59:15.850122   25936 start.go:137] gopshost.Virtualization returned error: not implemented yet
+I0130 08:59:15.851101   25936 out.go:177] * minikube v1.33.1 on Microsoft Windows 10 Enterprise 10.0.19045.5371 Build 19045.5371
+I0130 08:59:15.852069   25936 notify.go:220] Checking for updates...
+I0130 08:59:15.852643   25936 config.go:182] Loaded profile config "minikube": Driver=virtualbox, ContainerRuntime=docker, KubernetesVersion=v1.30.0
+I0130 08:59:15.854587   25936 driver.go:392] Setting default libvirt URI to qemu:///system
+I0130 08:59:15.865606   25936 virtualbox.go:136] virtual box version: 7.1.6r167084
+I0130 08:59:15.866115   25936 out.go:177] * Using the virtualbox driver based on existing profile
+I0130 08:59:15.867142   25936 start.go:297] selected driver: virtualbox
+I0130 08:59:15.867142   25936 start.go:901] validating driver "virtualbox" against &{Name:minikube KeepContext:false EmbedCerts:false MinikubeISO:https://storage.googleapis.com/minikube/iso/minikube-v1.33.1-amd64.iso KicBaseImage:gcr.io/k8s-minikube/kicbase:v0.0.44@sha256:eb04641328b06c5c4a14f4348470e1046bbcf9c2cbc551486e343d3a49db557e Memory:6000 CPUs:2 DiskSize:20000 Driver:virtualbox HyperkitVpnKitSock: HyperkitVSockPorts:[] DockerEnv:[] ContainerVolumeMounts:[] InsecureRegistry:[] RegistryMirror:[] HostOnlyCIDR:192.168.59.1/24 HypervVirtualSwitch: HypervUseExternalSwitch:false HypervExternalAdapter: KVMNetwork:default KVMQemuURI:qemu:///system KVMGPU:false KVMHidden:false KVMNUMACount:1 APIServerPort:8443 DockerOpt:[] DisableDriverMounts:false NFSShare:[] NFSSharesRoot:/nfsshares UUID: NoVTXCheck:false DNSProxy:false HostDNSResolver:true HostOnlyNicType:virtio NatNicType:virtio SSHIPAddress: SSHUser:root SSHKey: SSHPort:22 KubernetesConfig:{KubernetesVersion:v1.30.0 ClusterName:minikube Namespace:default APIServerHAVIP: APIServerName:minikubeCA APIServerNames:[] APIServerIPs:[] DNSDomain:cluster.local ContainerRuntime:docker CRISocket: NetworkPlugin:cni FeatureGates: ServiceCIDR:10.96.0.0/12 ImageRepository: LoadBalancerStartIP: LoadBalancerEndIP: CustomIngressCert: RegistryAliases: ExtraOptions:[] ShouldLoadCachedImages:true EnableDefaultCNI:false CNI:} Nodes:[{Name: IP:192.168.59.100 Port:8443 KubernetesVersion:v1.30.0 ContainerRuntime:docker ControlPlane:true Worker:true}] Addons:map[dashboard:true default-storageclass:true storage-provisioner:true] CustomAddonImages:map[] CustomAddonRegistries:map[] VerifyComponents:map[apiserver:true system_pods:true] StartHostTimeout:6m0s ScheduledStop:<nil> ExposedPorts:[] ListenAddress: Network: Subnet: MultiNodeRequested:false ExtraDisks:0 CertExpiration:26280h0m0s Mount:false MountString:C:\Users\MAzarudd:/minikube-host Mount9PVersion:9p2000.L MountGID:docker MountIP: MountMSize:262144 MountOptions:[] MountPort:0 MountType:9p MountUID:docker BinaryMirror: DisableOptimizations:false DisableMetrics:false CustomQemuFirmwarePath: SocketVMnetClientPath: SocketVMnetPath: StaticIP: SSHAuthSock: SSHAgentPID:0 GPUs: AutoPauseInterval:1m0s}
+I0130 08:59:15.867142   25936 start.go:912] status for virtualbox: {Installed:true Healthy:true Running:false NeedsImprovement:false Error:<nil> Reason: Fix: Doc: Version:7.1.6r167084
+}
+I0130 08:59:15.892123   25936 cni.go:84] Creating CNI manager for ""
+I0130 08:59:15.892123   25936 cni.go:158] "virtualbox" driver + "docker" container runtime found on kubernetes v1.24+, recommending bridge
+I0130 08:59:15.892123   25936 start.go:340] cluster config:
+{Name:minikube KeepContext:false EmbedCerts:false MinikubeISO:https://storage.googleapis.com/minikube/iso/minikube-v1.33.1-amd64.iso KicBaseImage:gcr.io/k8s-minikube/kicbase:v0.0.44@sha256:eb04641328b06c5c4a14f4348470e1046bbcf9c2cbc551486e343d3a49db557e Memory:6000 CPUs:2 DiskSize:20000 Driver:virtualbox HyperkitVpnKitSock: HyperkitVSockPorts:[] DockerEnv:[] ContainerVolumeMounts:[] InsecureRegistry:[] RegistryMirror:[] HostOnlyCIDR:192.168.59.1/24 HypervVirtualSwitch: HypervUseExternalSwitch:false HypervExternalAdapter: KVMNetwork:default KVMQemuURI:qemu:///system KVMGPU:false KVMHidden:false KVMNUMACount:1 APIServerPort:8443 DockerOpt:[] DisableDriverMounts:false NFSShare:[] NFSSharesRoot:/nfsshares UUID: NoVTXCheck:false DNSProxy:false HostDNSResolver:true HostOnlyNicType:virtio NatNicType:virtio SSHIPAddress: SSHUser:root SSHKey: SSHPort:22 KubernetesConfig:{KubernetesVersion:v1.30.0 ClusterName:minikube Namespace:default APIServerHAVIP: APIServerName:minikubeCA APIServerNames:[] APIServerIPs:[] DNSDomain:cluster.local ContainerRuntime:docker CRISocket: NetworkPlugin:cni FeatureGates: ServiceCIDR:10.96.0.0/12 ImageRepository: LoadBalancerStartIP: LoadBalancerEndIP: CustomIngressCert: RegistryAliases: ExtraOptions:[] ShouldLoadCachedImages:true EnableDefaultCNI:false CNI:} Nodes:[{Name: IP:192.168.59.100 Port:8443 KubernetesVersion:v1.30.0 ContainerRuntime:docker ControlPlane:true Worker:true}] Addons:map[dashboard:true default-storageclass:true storage-provisioner:true] CustomAddonImages:map[] CustomAddonRegistries:map[] VerifyComponents:map[apiserver:true system_pods:true] StartHostTimeout:6m0s ScheduledStop:<nil> ExposedPorts:[] ListenAddress: Network: Subnet: MultiNodeRequested:false ExtraDisks:0 CertExpiration:26280h0m0s Mount:false MountString:C:\Users\MAzarudd:/minikube-host Mount9PVersion:9p2000.L MountGID:docker MountIP: MountMSize:262144 MountOptions:[] MountPort:0 MountType:9p MountUID:docker BinaryMirror: DisableOptimizations:false DisableMetrics:false CustomQemuFirmwarePath: SocketVMnetClientPath: SocketVMnetPath: StaticIP: SSHAuthSock: SSHAgentPID:0 GPUs: AutoPauseInterval:1m0s}
+I0130 08:59:15.893694   25936 iso.go:125] acquiring lock: {Name:mk4c72f4bd84efa59e3d18db32adf99f277051b0 Clock:{} Delay:500ms Timeout:10m0s Cancel:<nil>}
+I0130 08:59:15.895235   25936 out.go:177] * Starting "minikube" primary control-plane node in "minikube" cluster
+I0130 08:59:15.895853   25936 preload.go:132] Checking if preload exists for k8s version v1.30.0 and runtime docker
+I0130 08:59:15.895853   25936 preload.go:147] Found local preload: C:\Users\MAzarudd\.minikube\cache\preloaded-tarball\preloaded-images-k8s-v18-v1.30.0-docker-overlay2-amd64.tar.lz4
+I0130 08:59:15.896362   25936 cache.go:56] Caching tarball of preloaded images
+I0130 08:59:15.896362   25936 preload.go:173] Found C:\Users\MAzarudd\.minikube\cache\preloaded-tarball\preloaded-images-k8s-v18-v1.30.0-docker-overlay2-amd64.tar.lz4 in cache, skipping download
+I0130 08:59:15.896362   25936 cache.go:59] Finished verifying existence of preloaded tar for v1.30.0 on docker
+I0130 08:59:15.896864   25936 profile.go:143] Saving config to C:\Users\MAzarudd\.minikube\profiles\minikube\config.json ...
+I0130 08:59:15.897936   25936 start.go:360] acquireMachinesLock for minikube: {Name:mk92a3f22dff07af2ca0498b1d7d8e5e99f37358 Clock:{} Delay:500ms Timeout:13m0s Cancel:<nil>}
+I0130 08:59:15.897936   25936 start.go:364] duration metric: took 0s to acquireMachinesLock for "minikube"
+I0130 08:59:15.897936   25936 start.go:96] Skipping create...Using existing machine configuration
+I0130 08:59:15.898449   25936 fix.go:54] fixHost starting: 
+I0130 08:59:15.899000   25936 main.go:141] libmachine: COMMAND: C:\Program Files\Oracle\VirtualBox\VBoxManage.exe showvminfo minikube --machinereadable
+I0130 08:59:15.928937   25936 main.go:141] libmachine: STDOUT:
+{
+name="minikube"
+encryption="disabled"
+groups="/"
+platformArchitecture="x86"
+ostype="Linux 2.6 / 3.x / 4.x / 5.x (64-bit)"
+UUID="da202442-95fb-48a1-99ad-ece59284527e"
+CfgFile="C:\\Users\\MAzarudd\\.minikube\\machines\\minikube\\minikube\\minikube.vbox"
+SnapFldr="C:\\Users\\MAzarudd\\.minikube\\machines\\minikube\\minikube\\Snapshots"
+LogFldr="C:\\Users\\MAzarudd\\.minikube\\machines\\minikube\\minikube\\Logs"
+hardwareuuid="da202442-95fb-48a1-99ad-ece59284527e"
+memory=6000
+pagefusion="off"
+vram=8
+cpuexecutioncap=100
+cpu-profile="host"
+chipset="piix3"
+firmware="BIOS"
+cpus=2
+hpet="on"
+pae="on"
+longmode="on"
+triplefaultreset="off"
+apic="on"
+x2apic="off"
+nested-hw-virt="off"
+hwvirtex="on"
+nestedpaging="on"
+largepages="on"
+vtxvpid="on"
+vtxux="on"
+virtvmsavevmload="on"
+cpuid-portability-level=0
+bootmenu="disabled"
+boot1="dvd"
+boot2="dvd"
+boot3="disk"
+boot4="none"
+acpi="on"
+ioapic="on"
+biosapic="apic"
+biossystemtimeoffset=0
+NvramFile="C:\\Users\\MAzarudd\\.minikube\\machines\\minikube\\minikube\\minikube.nvram"
+rtcuseutc="on"
+iommu="none"
+paravirtprovider="default"
+effparavirtprovider="kvm"
+VMState="running"
+VMStateChangeTime="2025-01-30T03:12:25.285000000"
+graphicscontroller="vboxvga"
+monitorcount=1
+accelerate3d="off"
+teleporterenabled="off"
+teleporterport=0
+teleporteraddress=""
+teleporterpassword=""
+tracing-enabled="off"
+tracing-allow-vm-access="off"
+tracing-config=""
+autostart-enabled="off"
+autostart-delay=0
+defaultfrontend=""
+vmprocpriority="default"
+storagecontrollername0="SATA"
+storagecontrollertype0="IntelAhci"
+storagecontrollerinstance0="0"
+storagecontrollermaxportcount0="30"
+storagecontrollerportcount0="30"
+storagecontrollerbootable0="on"
+"SATA-0-0"="C:\\Users\\MAzarudd\\.minikube\\machines\\minikube\\boot2docker.iso"
+"SATA-ImageUUID-0-0"="18b9a483-f10f-4fa9-9603-18f7140b7b93"
+"SATA-tempeject-0-0"="off"
+"SATA-IsEjected-0-0"="off"
+"SATA-hot-pluggable-0-0"="off"
+"SATA-nonrotational-0-0"="off"
+"SATA-discard-0-0"="off"
+"SATA-1-0"="C:\\Users\\MAzarudd\\.minikube\\machines\\minikube\\disk.vmdk"
+"SATA-ImageUUID-1-0"="d95be158-49cf-49c5-843c-51de236ab157"
+"SATA-hot-pluggable-1-0"="off"
+"SATA-nonrotational-1-0"="off"
+"SATA-discard-1-0"="off"
+"SATA-2-0"="none"
+"SATA-3-0"="none"
+"SATA-4-0"="none"
+"SATA-5-0"="none"
+"SATA-6-0"="none"
+"SATA-7-0"="none"
+"SATA-8-0"="none"
+"SATA-9-0"="none"
+"SATA-10-0"="none"
+"SATA-11-0"="none"
+"SATA-12-0"="none"
+"SATA-13-0"="none"
+"SATA-14-0"="none"
+"SATA-15-0"="none"
+"SATA-16-0"="none"
+"SATA-17-0"="none"
+"SATA-18-0"="none"
+"SATA-19-0"="none"
+"SATA-20-0"="none"
+"SATA-21-0"="none"
+"SATA-22-0"="none"
+"SATA-23-0"="none"
+"SATA-24-0"="none"
+"SATA-25-0"="none"
+"SATA-26-0"="none"
+"SATA-27-0"="none"
+"SATA-28-0"="none"
+"SATA-29-0"="none"
+natnet1="nat"
+macaddress1="0800274CD5E4"
+cableconnected1="on"
+nic1="nat"
+nictype1="virtio"
+nicspeed1="0"
+mtu="0"
+sockSnd="64"
+sockRcv="64"
+tcpWndSnd="64"
+tcpWndRcv="64"
+Forwarding(0)="ssh,tcp,127.0.0.1,56022,,22"
+hostonlyadapter2="VirtualBox Host-Only Ethernet Adapter #2"
+macaddress2="080027ED12F1"
+cableconnected2="on"
+nic2="hostonly"
+nictype2="virtio"
+nicspeed2="0"
+nic3="none"
+nic4="none"
+nic5="none"
+nic6="none"
+nic7="none"
+nic8="none"
+hidpointing="ps2mouse"
+hidkeyboard="ps2kbd"
+uart1="off"
+uart2="off"
+uart3="off"
+uart4="off"
+lpt1="off"
+lpt2="off"
+audio="default"
+audio_out="off"
+audio_in="off"
+clipboard="disabled"
+clipboard_file_transfers="off"
+draganddrop="disabled"
+SessionName="headless"
+VideoMode="720,400,0"@0,0 1
+vrde="off"
+usb="off"
+ehci="off"
+xhci="off"
+SharedFolderNameMachineMapping1="c/Users"
+SharedFolderPathMachineMapping1="\\\\?\\c:\\Users"
+VRDEActiveConnection="off"
+VRDEClients==0
+recording_started="off"
+recording_enabled="off"
+recording_screens=1
+ rec_screen0
+rec_screen_enabled="on"
+rec_screen_id=0
+rec_screen_video_enabled="on"
+rec_screen_audio_enabled="off"
+rec_screen_dest="File"
+rec_screen_dest_filename="C:\\Users\\MAzarudd\\.minikube\\machines\\minikube\\minikube\\minikube-screen0.webm"
+rec_screen_opts="vc_enabled=true,ac_enabled=false,ac_profile=med"
+rec_screen_video_res_xy="1024x768"
+rec_screen_video_rate_kbps=512
+rec_screen_video_fps=25
+GuestMemoryBalloon=0
+GuestOSType="Linux26_64"
+GuestAdditionsRunLevel=2
+GuestAdditionsVersion="6.0.0 r127566"
+GuestAdditionsFacility_VirtualBox Base Driver=50,1738206780910
+GuestAdditionsFacility_VirtualBox System Service=50,1738206781848
+GuestAdditionsFacility_Seamless Mode=0,1738206780909
+GuestAdditionsFacility_Graphics Mode=0,1738206780909
+}
+I0130 08:59:15.928937   25936 main.go:141] libmachine: STDERR:
+{
+}
+I0130 08:59:15.928937   25936 fix.go:112] recreateIfNeeded on minikube: state=Running err=<nil>
+W0130 08:59:15.928937   25936 fix.go:138] unexpected machine state, will restart: <nil>
+I0130 08:59:15.929946   25936 out.go:177] * Updating the running virtualbox "minikube" VM ...
+I0130 08:59:15.930500   25936 machine.go:94] provisionDockerMachine start ...
+I0130 08:59:15.932650   25936 main.go:141] libmachine: Using SSH client type: native
+I0130 08:59:15.932650   25936 main.go:141] libmachine: <nil>
+I0130 08:59:15.932650   25936 buildroot.go:166] provisioning hostname "minikube"
+I0130 08:59:15.935359   25936 main.go:141] libmachine: Using SSH client type: native
+I0130 08:59:15.935359   25936 main.go:141] libmachine: <nil>
+I0130 08:59:15.935359   25936 machine.go:97] duration metric: took 4.8584ms to provisionDockerMachine
+I0130 08:59:15.935359   25936 fix.go:56] duration metric: took 36.9165ms for fixHost
+I0130 08:59:15.935359   25936 start.go:83] releasing machines lock for "minikube", held for 37.4229ms
+W0130 08:59:15.935359   25936 start.go:713] error starting host: provision: Error getting config for native Go SSH: open C:\Users\MAzarudd\.minikube\machines\minikube\id_rsa: Access is denied.
+W0130 08:59:15.935359   25936 out.go:239] ! StartHost failed, but will try again: provision: Error getting config for native Go SSH: open C:\Users\MAzarudd\.minikube\machines\minikube\id_rsa: Access is denied.
+I0130 08:59:15.946473   25936 start.go:728] Will try again in 5 seconds ...
+I0130 08:59:16.047507   25936 lock.go:35] WriteFile acquiring C:\Users\MAzarudd\.minikube\last_update_check: {Name:mk6cefd9f5e1c6308849e931edcd4138f067afd2 Clock:{} Delay:500ms Timeout:1m0s Cancel:<nil>}
+I0130 08:59:16.048988   25936 out.go:177] * minikube 1.35.0 is available! Download it: https://github.com/kubernetes/minikube/releases/tag/v1.35.0
+I0130 08:59:16.050479   25936 out.go:177] * To disable this notice, run: 'minikube config set WantUpdateNotification false'
+
+I0130 08:59:20.948164   25936 start.go:360] acquireMachinesLock for minikube: {Name:mk92a3f22dff07af2ca0498b1d7d8e5e99f37358 Clock:{} Delay:500ms Timeout:13m0s Cancel:<nil>}
+I0130 08:59:20.948164   25936 start.go:364] duration metric: took 0s to acquireMachinesLock for "minikube"
+I0130 08:59:20.948164   25936 start.go:96] Skipping create...Using existing machine configuration
+I0130 08:59:20.948164   25936 fix.go:54] fixHost starting: 
+I0130 08:59:20.948675   25936 main.go:141] libmachine: COMMAND: C:\Program Files\Oracle\VirtualBox\VBoxManage.exe showvminfo minikube --machinereadable
+I0130 08:59:20.978965   25936 main.go:141] libmachine: STDOUT:
+{
+name="minikube"
+encryption="disabled"
+groups="/"
+platformArchitecture="x86"
+ostype="Linux 2.6 / 3.x / 4.x / 5.x (64-bit)"
+UUID="da202442-95fb-48a1-99ad-ece59284527e"
+CfgFile="C:\\Users\\MAzarudd\\.minikube\\machines\\minikube\\minikube\\minikube.vbox"
+SnapFldr="C:\\Users\\MAzarudd\\.minikube\\machines\\minikube\\minikube\\Snapshots"
+LogFldr="C:\\Users\\MAzarudd\\.minikube\\machines\\minikube\\minikube\\Logs"
+hardwareuuid="da202442-95fb-48a1-99ad-ece59284527e"
+memory=6000
+pagefusion="off"
+vram=8
+cpuexecutioncap=100
+cpu-profile="host"
+chipset="piix3"
+firmware="BIOS"
+cpus=2
+hpet="on"
+pae="on"
+longmode="on"
+triplefaultreset="off"
+apic="on"
+x2apic="off"
+nested-hw-virt="off"
+hwvirtex="on"
+nestedpaging="on"
+largepages="on"
+vtxvpid="on"
+vtxux="on"
+virtvmsavevmload="on"
+cpuid-portability-level=0
+bootmenu="disabled"
+boot1="dvd"
+boot2="dvd"
+boot3="disk"
+boot4="none"
+acpi="on"
+ioapic="on"
+biosapic="apic"
+biossystemtimeoffset=0
+NvramFile="C:\\Users\\MAzarudd\\.minikube\\machines\\minikube\\minikube\\minikube.nvram"
+rtcuseutc="on"
+iommu="none"
+paravirtprovider="default"
+effparavirtprovider="kvm"
+VMState="running"
+VMStateChangeTime="2025-01-30T03:12:25.285000000"
+graphicscontroller="vboxvga"
+monitorcount=1
+accelerate3d="off"
+teleporterenabled="off"
+teleporterport=0
+teleporteraddress=""
+teleporterpassword=""
+tracing-enabled="off"
+tracing-allow-vm-access="off"
+tracing-config=""
+autostart-enabled="off"
+autostart-delay=0
+defaultfrontend=""
+vmprocpriority="default"
+storagecontrollername0="SATA"
+storagecontrollertype0="IntelAhci"
+storagecontrollerinstance0="0"
+storagecontrollermaxportcount0="30"
+storagecontrollerportcount0="30"
+storagecontrollerbootable0="on"
+"SATA-0-0"="C:\\Users\\MAzarudd\\.minikube\\machines\\minikube\\boot2docker.iso"
+"SATA-ImageUUID-0-0"="18b9a483-f10f-4fa9-9603-18f7140b7b93"
+"SATA-tempeject-0-0"="off"
+"SATA-IsEjected-0-0"="off"
+"SATA-hot-pluggable-0-0"="off"
+"SATA-nonrotational-0-0"="off"
+"SATA-discard-0-0"="off"
+"SATA-1-0"="C:\\Users\\MAzarudd\\.minikube\\machines\\minikube\\disk.vmdk"
+"SATA-ImageUUID-1-0"="d95be158-49cf-49c5-843c-51de236ab157"
+"SATA-hot-pluggable-1-0"="off"
+"SATA-nonrotational-1-0"="off"
+"SATA-discard-1-0"="off"
+"SATA-2-0"="none"
+"SATA-3-0"="none"
+"SATA-4-0"="none"
+"SATA-5-0"="none"
+"SATA-6-0"="none"
+"SATA-7-0"="none"
+"SATA-8-0"="none"
+"SATA-9-0"="none"
+"SATA-10-0"="none"
+"SATA-11-0"="none"
+"SATA-12-0"="none"
+"SATA-13-0"="none"
+"SATA-14-0"="none"
+"SATA-15-0"="none"
+"SATA-16-0"="none"
+"SATA-17-0"="none"
+"SATA-18-0"="none"
+"SATA-19-0"="none"
+"SATA-20-0"="none"
+"SATA-21-0"="none"
+"SATA-22-0"="none"
+"SATA-23-0"="none"
+"SATA-24-0"="none"
+"SATA-25-0"="none"
+"SATA-26-0"="none"
+"SATA-27-0"="none"
+"SATA-28-0"="none"
+"SATA-29-0"="none"
+natnet1="nat"
+macaddress1="0800274CD5E4"
+cableconnected1="on"
+nic1="nat"
+nictype1="virtio"
+nicspeed1="0"
+mtu="0"
+sockSnd="64"
+sockRcv="64"
+tcpWndSnd="64"
+tcpWndRcv="64"
+Forwarding(0)="ssh,tcp,127.0.0.1,56022,,22"
+hostonlyadapter2="VirtualBox Host-Only Ethernet Adapter #2"
+macaddress2="080027ED12F1"
+cableconnected2="on"
+nic2="hostonly"
+nictype2="virtio"
+nicspeed2="0"
+nic3="none"
+nic4="none"
+nic5="none"
+nic6="none"
+nic7="none"
+nic8="none"
+hidpointing="ps2mouse"
+hidkeyboard="ps2kbd"
+uart1="off"
+uart2="off"
+uart3="off"
+uart4="off"
+lpt1="off"
+lpt2="off"
+audio="default"
+audio_out="off"
+audio_in="off"
+clipboard="disabled"
+clipboard_file_transfers="off"
+draganddrop="disabled"
+SessionName="headless"
+VideoMode="720,400,0"@0,0 1
+vrde="off"
+usb="off"
+ehci="off"
+xhci="off"
+SharedFolderNameMachineMapping1="c/Users"
+SharedFolderPathMachineMapping1="\\\\?\\c:\\Users"
+VRDEActiveConnection="off"
+VRDEClients==0
+recording_started="off"
+recording_enabled="off"
+recording_screens=1
+ rec_screen0
+rec_screen_enabled="on"
+rec_screen_id=0
+rec_screen_video_enabled="on"
+rec_screen_audio_enabled="off"
+rec_screen_dest="File"
+rec_screen_dest_filename="C:\\Users\\MAzarudd\\.minikube\\machines\\minikube\\minikube\\minikube-screen0.webm"
+rec_screen_opts="vc_enabled=true,ac_enabled=false,ac_profile=med"
+rec_screen_video_res_xy="1024x768"
+rec_screen_video_rate_kbps=512
+rec_screen_video_fps=25
+GuestMemoryBalloon=0
+GuestOSType="Linux26_64"
+GuestAdditionsRunLevel=2
+GuestAdditionsVersion="6.0.0 r127566"
+GuestAdditionsFacility_VirtualBox Base Driver=50,1738206780910
+GuestAdditionsFacility_VirtualBox System Service=50,1738206781848
+GuestAdditionsFacility_Seamless Mode=0,1738206780909
+GuestAdditionsFacility_Graphics Mode=0,1738206780909
+}
+I0130 08:59:20.978965   25936 main.go:141] libmachine: STDERR:
+{
+}
+I0130 08:59:20.978965   25936 fix.go:112] recreateIfNeeded on minikube: state=Running err=<nil>
+W0130 08:59:20.978965   25936 fix.go:138] unexpected machine state, will restart: <nil>
+I0130 08:59:20.980094   25936 out.go:177] * Updating the running virtualbox "minikube" VM ...
+I0130 08:59:20.980679   25936 machine.go:94] provisionDockerMachine start ...
+I0130 08:59:20.982660   25936 main.go:141] libmachine: Using SSH client type: native
+I0130 08:59:20.982660   25936 main.go:141] libmachine: <nil>
+I0130 08:59:20.982660   25936 buildroot.go:166] provisioning hostname "minikube"
+I0130 08:59:20.984647   25936 main.go:141] libmachine: Using SSH client type: native
+I0130 08:59:20.984647   25936 main.go:141] libmachine: <nil>
+I0130 08:59:20.984647   25936 machine.go:97] duration metric: took 3.968ms to provisionDockerMachine
+I0130 08:59:20.984647   25936 fix.go:56] duration metric: took 36.4832ms for fixHost
+I0130 08:59:20.984647   25936 start.go:83] releasing machines lock for "minikube", held for 36.4832ms
+W0130 08:59:20.984647   25936 out.go:239] * Failed to start virtualbox VM. Running "minikube delete" may fix it: provision: Error getting config for native Go SSH: open C:\Users\MAzarudd\.minikube\machines\minikube\id_rsa: Access is denied.
+I0130 08:59:20.985144   25936 out.go:177] 
+W0130 08:59:20.985640   25936 out.go:239] X Exiting due to GUEST_PROVISION: error provisioning guest: Failed to start host: provision: Error getting config for native Go SSH: open C:\Users\MAzarudd\.minikube\machines\minikube\id_rsa: Access is denied.
+W0130 08:59:20.985640   25936 out.go:239] * 
+W0130 08:59:20.987131   25936 out.go:239] ╭─────────────────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                             │
+│    * If the above advice does not help, please let us know:                                 │
+│      https://github.com/kubernetes/minikube/issues/new/choose                               │
+│                                                                                             │
+│    * Please run `minikube logs --file=logs.txt` and attach logs.txt to the GitHub issue.    │
+│                                                                                             │
+╰─────────────────────────────────────────────────────────────────────────────────────────────╯
+I0130 08:59:20.987628   25936 out.go:177] 
+
+
+==> Docker <==
+command /bin/bash -c "sudo journalctl -u docker -u cri-docker -n 60" failed with error: NewSession: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\MAzarudd\.minikube\machines\minikube\id_rsa]}: open C:\Users\MAzarudd\.minikube\machines\minikube\id_rsa: Access is denied.
+
+==> container status <==
+command /bin/bash -c "sudo `which crictl || echo crictl` ps -a || sudo docker ps -a" failed with error: NewSession: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\MAzarudd\.minikube\machines\minikube\id_rsa]}: open C:\Users\MAzarudd\.minikube\machines\minikube\id_rsa: Access is denied.
+
+==> describe nodes <==
+command /bin/bash -c "sudo /var/lib/minikube/binaries/v1.30.0/kubectl describe nodes --kubeconfig=/var/lib/minikube/kubeconfig" failed with error: NewSession: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\MAzarudd\.minikube\machines\minikube\id_rsa]}: open C:\Users\MAzarudd\.minikube\machines\minikube\id_rsa: Access is denied.
+
+==> dmesg <==
+command /bin/bash -c "sudo dmesg -PH -L=never --level warn,err,crit,alert,emerg | tail -n 60" failed with error: NewSession: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\MAzarudd\.minikube\machines\minikube\id_rsa]}: open C:\Users\MAzarudd\.minikube\machines\minikube\id_rsa: Access is denied.
+
+==> kernel <==
+command /bin/bash -c "uptime && uname -a && grep PRETTY /etc/os-release" failed with error: NewSession: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\MAzarudd\.minikube\machines\minikube\id_rsa]}: open C:\Users\MAzarudd\.minikube\machines\minikube\id_rsa: Access is denied.
+
+==> kubelet <==
+command /bin/bash -c "sudo journalctl -u kubelet -n 60" failed with error: NewSession: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\MAzarudd\.minikube\machines\minikube\id_rsa]}: open C:\Users\MAzarudd\.minikube\machines\minikube\id_rsa: Access is denied.

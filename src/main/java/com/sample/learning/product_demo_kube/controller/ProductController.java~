@@ -1,0 +1,4 @@
+package com.sample.learning.product_demo_kube.controller;
+
+public class ProductController {
+}

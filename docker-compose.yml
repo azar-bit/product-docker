@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  product_demo_kube:
+    image: azaruddinmohd12/product_kube:1.0.0
+    ports:
+      - "8088:8088"
+    depends_on:
+      - mysql
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql/product_demo_kube1?useSSL=false&allowPublicKeyRetrieval=true
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: root
+    networks:
+      - product_demo_kube_network
+
+  mysql:
+    image: mysql:8.0.27
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: product_demo_kube
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
+    networks:
+      - product_demo_kube_network
+
+networks:
+  product_demo_kube_network:
+    driver: bridge
